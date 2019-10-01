@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
-end
+  array = [1, 2, 3]
+
+array.map { |x| x**2 }
+end 
